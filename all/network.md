@@ -1,10 +1,8 @@
 ```mermaid
-flowchart TD
-    subgraph host1
-    Sender --- Docker0
-    MQ --- Docker0
-    Receiver --- Docker0
-    Receiver2 --- Docker0
-
-    end
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+            
 ```
