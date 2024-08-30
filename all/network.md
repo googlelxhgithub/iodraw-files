@@ -4,6 +4,7 @@ flowchart TD
     Sender --- Docker0
     MQ --- Docker0
     Receiver --- Docker0
+    Receiver
 
     end
  
