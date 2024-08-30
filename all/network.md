@@ -3,7 +3,7 @@ flowchart TD
     subgraph host1
     Sender --- Docker0
     MQ --- Docker0
-    Receiv
+    Receiver --- Docker0
 
     end
  
